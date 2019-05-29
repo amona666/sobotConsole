@@ -1,0 +1,31 @@
+-
+ testCaseName: login
+ host: https://test.sobot.com
+ url: /basic/serviceLogin/4
+ method: post
+ detail: 登录成功-正确的用户名密码
+ testData:
+     loginUser: wangkun6986@sina.com
+     loginPwd: sobot123
+     randomCode:
+     randomKey:
+     loginFlag: 1
+ checkpoint: "000000"
+-
+ testCaseName: login
+ host: https://test.sobot.com
+ url: /basic/serviceLogin/4
+ method: post
+ detail: 登录失败-正确的用户名，错误的密码
+ testData:
+     loginUser: wangkun6986@sina.com
+     loginPwd: sobot
+     randomCode:
+     randomKey:
+     loginFlag: 1
+ checkpoint: "000000"
+
+
+
+
+

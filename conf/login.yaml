@@ -1,0 +1,23 @@
+-
+ host: http://test.sobto.com
+ url: /basic/serviceLogin/4
+ method: post
+ detail: 登录成功
+ data:
+  loginUser: wangkun6986@sina.com
+  loginPwd: ENCODE(sobot123)
+  randomCode:
+  randomKey:
+  loginFlag: 1
+
+-
+ host: http://test.sobto.com
+ url: /basic/serviceLogin/4
+ method: post
+ detail: 登录成功
+ data:
+  loginUser: wangkun6986@sina.com
+  loginPwd: ENCODE(sobot123)
+  randomCode:
+  randomKey:
+  loginFlag: 1
