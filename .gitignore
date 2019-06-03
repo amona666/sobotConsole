@@ -3,4 +3,6 @@ venv/
 将删除 apiPage/__pycache__/
 将删除 case/__pycache__/
 将删除 common/__pycache__/
-report/
+
+/ddd
+/aaa
