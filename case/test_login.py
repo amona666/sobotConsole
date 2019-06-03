@@ -1,8 +1,5 @@
 #coding:utf-8
-from urllib import parse
-
 import requests
-from common.fileTool import *
 import unittest
 import ddt
 from apiPage.loginPage import *
@@ -10,7 +7,7 @@ from apiPage.loginPage import *
 
 @ddt.ddt
 class Login(unittest.TestCase):
-    @ddt.file_data("//home//amona//Dev/workspace//sobotConsole//conf//testConf.yaml")
+    @ddt.file_data("D:\\Dev\\git_pro\\sobotConsole\\conf\\testConf.yaml")
     def test_login_suc(self,**kwargs):
         print(kwargs)
         host = kwargs.get("host","http://test.sobot.com")

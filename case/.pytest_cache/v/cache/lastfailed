@@ -1,0 +1,4 @@
+{
+  "test_login.py::Login::test_login_suc_00001_error": true,
+  "test_login.py::Login::test_login_suc_00002": true
+}
