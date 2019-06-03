@@ -16,7 +16,7 @@ class fileTool():
         return data
 
     #读取yaml配置文件
-    def rendYamlConf(self,fileDir,fileName):
+    def readYamlConf(self,fileDir,fileName):
         scriptPath = os.path.abspath("..")
         print("输出脚本的父级路径：",scriptPath)
         casePath = scriptPath + "/" +fileDir
